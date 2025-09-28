@@ -1,0 +1,115 @@
+/* Reset default browser styles if not already done */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section wrapper */
+.feedback {
+    position: relative;
+    padding: 100px 0;
+    /* background-color: #fff8f0; */
+}
+
+/* Decorative leaf image */
+.feedback-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0.2;
+    width: 150px;
+    margin-left: 300px;
+}
+
+
+
+.feedback-img img {
+    width: 100%;
+    height: auto;
+}
+
+/* Section title styles */
+
+
+
+.title1 h4.feed-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.title1 h2 {
+    font-size: 40px;
+    font-weight: 700;
+
+    /* margin-left: 200px; */
+}
+
+
+
+/* Feedback box */
+.feed-box {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.feed-box:hover {
+    transform: translateY(-5px);
+}
+
+/* Feedback image (client photo) */
+.feed-img img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ffc107;
+}
+
+/* Feedback info (text + stars) */
+.feed-info h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.feed-info p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Stars */
+.breadcrumb {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.breadcrumb svg {
+    font-size: 20px;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 768px) {
+    .feedback {
+        padding: 60px 20px;
+    }
+
+    .title1 h2 {
+        font-size: 32px;
+    }
+
+    .feed-box {
+        padding: 20px;
+    }
+
+    .feedback-img {
+        display: none !important;
+    }
+}

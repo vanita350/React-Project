@@ -1,0 +1,63 @@
+.about-section {
+    background: #fff;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+}
+
+.underline {
+    display: inline-block;
+    width: 40px;
+    height: 2px;
+    background-color: red;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.desc {
+    font-size: 18px;
+    color: #777;
+    line-height: 1.6;
+}
+
+.mini-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.col-sm-6 img {
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.desc-sm {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .desc,
+    .desc-sm {
+        font-size: 16px;
+    }
+
+    .mini-title {
+        font-size: 18px;
+    }
+}
