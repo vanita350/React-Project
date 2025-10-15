@@ -1,0 +1,50 @@
+{
+  "properties": [
+    {
+      "id": "165601",
+      "pname": "ABCD",
+      "pavialibity": "Buy",
+      "category": "Apartment",
+      "image": "https://m.media-amazon.com/images/I/71BJfGh0aRL._SY741_.jpg",
+      "facility": [
+        "Garden",
+        "CCTV"
+      ],
+      "area": "1200",
+      "price": "123",
+      "contactNo": "1122334455",
+      "address": "202, Navkar Palace"
+    },
+    {
+      "id": "337874",
+      "pname": "ZZZZZ",
+      "pavialibity": "Rent",
+      "category": "Commercial",
+      "image": "https://m.media-amazon.com/images/I/71BJfGh0aRL._SY741_.jpg",
+      "facility": [
+        "CCTV",
+        "Garden",
+        "Parking"
+      ],
+      "area": "12005",
+      "price": "",
+      "contactNo": "",
+      "address": ""
+    },
+    {
+      "id": "280216",
+      "pname": "zxcvb",
+      "pavialibity": "Rent",
+      "category": "Industiral",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.8TTD70YWU-VBCQkO4wVOkAHaDt?pid=Api&P=0&h=180",
+      "facility": [
+        "CCTV",
+        "Parking"
+      ],
+      "area": "33",
+      "price": "111",
+      "contactNo": "1478523690",
+      "address": "Royal Arcade, Jakatnaka, Surat"
+    }
+  ]
+}
