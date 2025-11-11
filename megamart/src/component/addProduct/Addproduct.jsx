@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button, Col, Container, Form, Row, Card } from "react-bootstrap";
 import { useDispatch } from 'react-redux';
-import { useNavigate } from "react-router-dom"; // Make sure you're using this, not 'react-router'
+import { useNavigate } from "react-router-dom"; 
 import generateUnqiueId from 'generate-unique-id';
 import { addnewProduct } from "../../services/action/MenAction.js";
 

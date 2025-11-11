@@ -1,17 +1,17 @@
-export const addnewProduct = (product) =>{
-    return{
+export const addnewProduct = (product) => {
+    return {
         type: "ADD_PRODUCT",
         payload: product
     }
 };
-export const Deleteproduct = (id) =>{
-    return{
+export const Deleteproduct = (id) => {
+    return {
         type: "DELETE_PRODUCT",
         payload: id
     }
 }
-export const getAllproduct = () =>{
-    return{
+export const getAllproduct = () => {
+    return {
         type: "GET_ALL_PRODUCT",
     }
 }
