@@ -1,0 +1,24 @@
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.blog-card {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+.blog-card h2 {
+  color: #0077ff;
+  margin-bottom: 0.5rem;
+}
+
+.blog-date {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}

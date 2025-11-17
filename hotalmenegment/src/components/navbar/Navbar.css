@@ -1,0 +1,140 @@
+/* Main navbar */
+.lux-navbar {
+  width: 100%;
+  background-color: #111;
+  padding: 12px 0;
+}
+
+/* Main container */
+.lux-container {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.lux-logo {
+  display: flex;
+  align-items: center;
+  color: #c8b090;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-icon {
+  margin-right: 8px;
+  font-size: 26px;
+}
+
+.logo-text {
+  font-family: "Georgia", serif;
+}
+
+/* Toggle Button (Mobile) */
+.lux-toggle {
+  display: none;
+  font-size: 26px;
+  color: #c8b090;
+  cursor: pointer;
+}
+
+/* Menu */
+.lux-menu {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+
+.lux-menu li a {
+  text-decoration: none;
+  color: #bbbbbb;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.lux-menu li a:hover {
+  color: #c8b090;
+}
+
+/* Book Now Button */
+.lux-book-btn {
+  background-color: #c8b090;
+  color: white;
+  border: none;
+  padding: 8px 22px;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.lux-book-btn:hover {
+  background-color: #b89a70;
+}
+/* Basic nav link styling */
+.nav-link-item {
+  text-decoration: none;
+  color: #bbbbbb;
+  font-size: 16px;
+  padding-bottom: 5px;
+  transition: 0.3s;
+}
+
+/* Hover */
+.nav-link-item:hover {
+  color: #c8b090;
+}
+
+/* ACTIVE LINK → Underline effect */
+.nav-link-item.active {
+  color: #c8b090;
+  border-bottom: 2px solid #c8b090;
+  padding-bottom: 4px;
+}
+
+/* ----------------------
+   RESPONSIVE DESIGN 
+---------------------- */
+@media (max-width: 900px) {
+  
+  /* Toggle button visible */
+  .lux-toggle {
+    display: block;
+  }
+
+  /* Menu becomes hidden */
+  .lux-menu {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #111;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 0;
+    display: none;
+  }
+
+  /* Menu open */
+  .lux-menu.open {
+    display: flex;
+  }
+
+  /* Move Book Now button under menu */
+  .lux-btn-container {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .lux-logo {
+    font-size: 20px;
+  }
+
+  .logo-icon {
+    font-size: 22px;
+  }
+}

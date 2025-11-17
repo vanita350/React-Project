@@ -1,0 +1,103 @@
+
+.reservation-form-container {
+  padding: 50px 10%;
+  background: #101010;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.reservation-form h2 {
+  color: #c8b090;
+  text-align: center;
+  margin-bottom: 30px;
+  margin: auto;
+}
+.reservation-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  gap: 15px;
+}
+.reservation-form input,
+.reservation-form select,
+.reservation-form button {
+  padding: 10px;
+  font-size: 1rem;
+  flex: 1 1 48%;
+}
+
+.reservation-form button {
+  flex: 1 1 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.reservation-form button:hover {
+  background-color: #0056b3;
+}
+
+.reservation-list {
+  margin-top: 30px;
+}
+
+.reservation-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.reservation-card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.reservation-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.reservation-info {
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+.reservation-actions {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.reservation-actions button {
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.reservation-actions button:first-child {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.reservation-actions button:first-child:hover {
+  background-color: #e0a800;
+}
+
+.reservation-actions button:last-child {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.reservation-actions button:last-child:hover {
+  background-color: #c82333;
+}
